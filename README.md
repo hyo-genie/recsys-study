@@ -62,7 +62,16 @@ HSTU의 프로덕션급 확장 — DynamicEmb, Async KV Cache, Megatron
 | Part 5. 적용 | [9장](nvidia-recsys-examples/part5/ch09_application.md) | 유저 Ontology, 서빙 최적화 |
 | **부록** | [batch-feature-pipeline 비교](nvidia-recsys-examples/part5/batch-feature-pipeline-comparison.md) | **DynamicEmb vs batch-feature-pipeline 배치 파이프라인 Gap** |
 
-### 4. YouTube static-constraint-decoding *(coming soon)*
+### [4. YouTube STATIC Constrained Decoding](youtube-static-constraint/) (7장)
+
+LLM 기반 Generative Retrieval의 Constrained Decoding — 948x 속도 향상
+
+| Part | 장 | 핵심 |
+|------|---|------|
+| Part 1. 배경 지식 | [1장](youtube-static-constraint/part1/ch01_background.md)~[2장](youtube-static-constraint/part1/ch02_trie_and_csr.md) | Generative Retrieval, Semantic ID, Trie→CSR |
+| Part 2. 코드 워크스루 | [3장](youtube-static-constraint/part2/ch03_offline_indexing.md)~[5장](youtube-static-constraint/part2/ch05_code_walkthrough.md) | Offline Indexing, Online Decoding, 실습 |
+| Part 3. 성능 분석 | [6장](youtube-static-constraint/part3/ch06_benchmarks.md) | CPU Trie/Hash/PPV vs STATIC, 948x 속도 |
+| Part 4. 적용 | [7장](youtube-static-constraint/part4/ch07_application.md) | Generative Retrieval 전체 그림, HSTU 연결 |
 
 ---
 
@@ -88,10 +97,10 @@ recsys-study/
 ├── meta-generative-recommenders/     # 1순위 (18장 + 부록)
 ├── ms-recommenders/                  # 2순위 (16장 + 부록)
 ├── nvidia-recsys-examples/           # 3순위 (9장 + 부록)
-└── youtube-static-constraint/        # 4순위 (coming soon)
+└── youtube-static-constraint/        # 4순위 (7장 + 13 그래프)
 ```
 
-**총 43장 + 부록 3편, 67개 그래프/다이어그램**
+**총 50장 + 부록 3편, 80개 그래프/다이어그램**
 
 ---
 
@@ -106,3 +115,4 @@ recsys-study/
 
 - [Actions Speak Louder than Words](https://arxiv.org/abs/2402.17152) (ICML'24)
 - [Self-Attentive Sequential Recommendation (SASRec)](https://arxiv.org/abs/1808.09781) (ICDM'18)
+- [Vectorizing the Trie: Efficient Constrained Decoding](https://arxiv.org/abs/2602.22647) (arXiv'26)
