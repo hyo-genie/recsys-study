@@ -35,6 +35,7 @@ HSTU 아키텍처 — 추천을 생성 모델로 재정의한 ICML'24 논문 구
 | Part 3. 코드 워크스루 | [10장](meta-generative-recommenders/part3/ch10_repo_structure.md)~[15장](meta-generative-recommenders/part3/ch15_dlrmv3_production.md) | 레포 구조, 데이터, 모듈, 연산, Research, DLRMv3 |
 | Part 4. 실습/적용 | [16장](meta-generative-recommenders/part4/ch16_environment.md)~[18장](meta-generative-recommenders/part4/ch18_practical_application.md) | 환경, 하이퍼파라미터, 실무 적용 |
 | **부록** | [현재 시스템 비교](meta-generative-recommenders/part4/current-comparison.md) | **HSTU vs ListNet(현재 ranker) Gap 분석, 도입 로드맵** |
+| **[6주 팀 스터디](meta-generative-recommenders/team-study/)** | ML + MLOps 합동 | 논문 연결 + 역할별 발표 (week1~6) |
 
 ### [2. MS Recommenders](ms-recommenders/) (16장)
 
@@ -95,6 +96,7 @@ LLM 기반 Generative Retrieval의 Constrained Decoding — 948x 속도 향상
 recsys-study/
 ├── README.md
 ├── meta-generative-recommenders/     # 1순위 (18장 + 부록)
+│   └── team-study/                   #   └─ 6주 팀 스터디 (ML + MLOps)
 ├── ms-recommenders/                  # 2순위 (16장 + 부록)
 ├── nvidia-recsys-examples/           # 3순위 (9장 + 부록)
 └── youtube-static-constraint/        # 4순위 (7장 + 13 그래프)
